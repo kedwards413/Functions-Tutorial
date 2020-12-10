@@ -1,4 +1,19 @@
+const rapid = (str) => {
+    var newString = " ";
+    var i;
+    for (i = 0; i < str.length; i++) {
+        if (str.charAt(i)!="aeiou" ){
+            newString += str.charAt(i);
+        }
 
-   // From this line up Do not change code below
-   let str = "John";
-   console.log(rapid(str));
+        
+    
+    }
+    return newString.toUpperCase()
+}
+
+
+
+// From this line up Do not change code below
+let str = "John";
+console.log(rapid(str));
